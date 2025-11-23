@@ -1,0 +1,36 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# Asset meta data should be tracked
+!Assets/**/*.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Auto-generated VS/MD/JetBrains project files
+*.ide
+*.DS_Store
+*.vscode/
+.vsconfig
