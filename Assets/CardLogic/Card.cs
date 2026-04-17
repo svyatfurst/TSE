@@ -1,56 +1,70 @@
+/// <summary>
+/// Class Card
+/// Used for the card objects in the player's hand. Handles dragging to target and snapping back if the player misses.
+/// By Harry Vowles (29339644)
+/// </summary> 
+
 using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    private LineRenderer lineRenderer;
-    private Vector3 startDragPosition;
-    private bool isTargeting = false;
+    private LineRenderer lineRenderer; // Used to draw the targeting line
+    private Vector3 startDragPosition; // Remember where the card started so we can snap back if we miss
+    private bool isTargeting = false; // True while the player is dragging the card to target something
 
-    void Start()
+    void Start() // Set up the LineRenderer component
     {
         lineRenderer = GetComponent<LineRenderer>();
-        // Hide the line at the start
         lineRenderer.positionCount = 0;
     }
 
+    // On Clicking the card, we start targeting. We remember where the card is so we can snap back if we miss.
     private void OnMouseDown()
     {
         isTargeting = true;
-        startDragPosition = transform.position;
-        lineRenderer.positionCount = 2; // Start and End points
+        startDragPosition = transform.position; // Remembers its spot in the Hand
+        lineRenderer.positionCount = 2;
     }
 
+    // While dragging, we update the LineRenderer to draw a line from the card to the mouse position.
     private void OnMouseDrag()
     {
         if (isTargeting)
         {
             Vector3 mousePos = GetMousePositionInWorldSpace();
-
-            // Set the line points
-            lineRenderer.SetPosition(0, startDragPosition); // Start at card
-            lineRenderer.SetPosition(1, mousePos);          // End at mouse
+            lineRenderer.SetPosition(0, transform.position); // Line starts at the card
+            lineRenderer.SetPosition(1, mousePos);           // Line ends at the mouse
         }
     }
 
+    // On releasing the mouse button, we check if we released over a valid target. If so, we trigger the card's effect. If not, we snap back to the hand.
     private void OnMouseUp()
     {
         isTargeting = false;
-        lineRenderer.positionCount = 0; // Hide the line
+        lineRenderer.positionCount = 0;
 
         Vector3 mousePos = GetMousePositionInWorldSpace();
 
-        // Check what is UNDER THE MOUSE, not under the card
+        // Shoots a point into the 2D world exactly where you let go of the mouse
         Collider2D hitCollider = Physics2D.OverlapPoint((Vector2)mousePos);
 
         if (hitCollider != null && hitCollider.TryGetComponent(out ICardDropArea cardDropArea))
         {
-            // Move the card to the target location
-            transform.position = hitCollider.transform.position;
+            // We hit a valid target ( Can be anything that implements ICardDropArea, like an enemy or the player).
+
+            // 1. Tell the HandManager to remove this card so the hand closes the gap
+            HandManager hand = FindObjectOfType<HandManager>();
+            if (hand != null)
+            {
+                hand.RemoveCard(this);
+            }
+
+            // 2. Trigger the drop logic on the target
             cardDropArea.OnCardDropped(this);
         }
         else
         {
-            // Return to original spot if we missed
+            // We missed. Snap the card back to its slot in the hand.
             transform.position = startDragPosition;
         }
     }
@@ -60,15 +74,5 @@ public class Card : MonoBehaviour
         Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         p.z = 0;
         return p;
-    }
-
-    void Update()
-    {
-        if (isTargeting)
-        {
-            // This slides the texture along the line
-            float offset = Time.time * -2.0f;
-            lineRenderer.material.mainTextureOffset = new Vector2(offset, 0);
-        }
     }
 }

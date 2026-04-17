@@ -8,7 +8,14 @@ public class TestDropBlue : MonoBehaviour, ICardDropArea
     
     public void OnCardDropped(Card card)
     {
-        Destroy(card.gameObject); // Destroy the card that was dropped on the blue area
-        Instantiate(objectToSpawn, transform.position, transform.rotation); // Spawn the specified object at the position and rotation of the blue area
+        if (objectToSpawn != null)
+        {
+            // Instantiate the object at the position of the blue area
+            Instantiate(objectToSpawn, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("No object assigned to spawn on card drop.");
+        }
     }
 }
