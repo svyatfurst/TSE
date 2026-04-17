@@ -33,4 +33,4 @@ sysinfo.txt
 *.ide
 *.DS_Store
 *.vscode/
-.vsconfig
+.vsconfig/.vs/
