@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GLaGL\\Downloads\\TSE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\NextRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\NextRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\Open.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Open.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\OpenPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\OpenDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\GoBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GoBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NextRoom.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\NextRoom.cs",
+              "RelativeDocumentMoniker": "Assets\\NextRoom.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\NextRoom.cs",
+              "RelativeToolTip": "Assets\\NextRoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:54:30.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Open.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\Open.cs",
+              "RelativeDocumentMoniker": "Assets\\Open.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\Open.cs",
+              "RelativeToolTip": "Assets\\Open.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:32:49.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpenDoor.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\OpenDoor.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenDoor.cs",
+              "RelativeToolTip": "Assets\\OpenDoor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:27:59.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoBack.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\GoBack.cs",
+              "RelativeDocumentMoniker": "Assets\\GoBack.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\GoBack.cs",
+              "RelativeToolTip": "Assets\\GoBack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:07:30.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OpenPuzzle.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenPuzzle.cs",
+              "RelativeDocumentMoniker": "Assets\\OpenPuzzle.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\OpenPuzzle.cs",
+              "RelativeToolTip": "Assets\\OpenPuzzle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T14:53:09.737Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
