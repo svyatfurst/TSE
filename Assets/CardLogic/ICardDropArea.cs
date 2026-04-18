@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface ICardDropArea
 {
-    void OnCardDropped(Card card);
+    // Return a boolean indicating whether the card was successfully dropped in this area
+    bool OnCardDropped(Card card);
 }
