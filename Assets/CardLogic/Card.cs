@@ -4,6 +4,8 @@
 /// By Harry Vowles (29339644)
 /// </summary> 
 
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Card : MonoBehaviour
