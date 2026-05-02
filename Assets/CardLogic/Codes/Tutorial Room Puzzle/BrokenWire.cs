@@ -1,13 +1,14 @@
-/// <summary>
-/// Broken Wire Class for puzzle logic
-/// By Harry Vowles (29339644)
-/// </summary>
-
+using System.Collections;
 using UnityEngine;
 
 public class BrokenWire : MonoBehaviour, ICardDropArea
 {
     [SerializeField] private CardTrait requiredTrait = CardTrait.Wire;
+    public GameObject openDoor;
+    public Animator animator;
+    public GameObject fixedWires;
+    public GameObject sparks;
+    public GameObject powered;
 
     public bool OnCardDropped(Card droppedCard)
     {
@@ -16,12 +17,18 @@ public class BrokenWire : MonoBehaviour, ICardDropArea
         {
             Debug.Log("Success! The wire was fixed!");
 
-            // 2. Do the fix logic here (change sprite, play sound, open door, etc.)
+            // 2. Put your door opening logic here!
 
-            // 3. Destroy the card object since it was used
+            // 3. THE FIX: Actually delete the card from the world!
             Destroy(droppedCard.gameObject);
+            fixedWires.SetActive(true);
+            sparks.SetActive(false);
+            powered.SetActive(true);
 
-            return true; // Tells the card it was accepted
+            animator.SetBool("Play", true);
+            StartCoroutine(DelayAction());
+
+            return true; // Tells the Card.cs script it was accepted
         }
         else
         {
@@ -29,4 +36,12 @@ public class BrokenWire : MonoBehaviour, ICardDropArea
             return false; // Tells the card to snap back
         }
     }
+
+    IEnumerator DelayAction()
+    {
+        yield return new WaitForSeconds(1f);
+
+        openDoor.SetActive(true);
+    }
 }
+
