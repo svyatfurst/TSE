@@ -1,45 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\",
+  "WorkspaceRootPath": "C:\\Users\\GLaGL\\Downloads\\TSE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\InteractableNote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InteractableNote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TutorialRoom\\TSE\\Assets\\CardLogic\\WiresCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\CardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\HandManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\HandManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\PickUpWires.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PickUpWires.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\OpenPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\OpenPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\ICardDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\ICardDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,131 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "info.txt",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt",
-              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt",
-              "RelativeToolTip": "Assets\\TextMesh Pro\\Fonts\\motomang-font\\info.txt",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-01T13:15:22.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InteractableNote.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\InteractableNote.cs",
-              "RelativeDocumentMoniker": "Assets\\InteractableNote.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\InteractableNote.cs",
-              "RelativeToolTip": "Assets\\InteractableNote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T10:53:23.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WiresCard.cs",
-              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TutorialRoom\\TSE\\Assets\\CardLogic\\WiresCard.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\GLaGL\\Downloads\\TutorialRoom\\TSE\\Assets\\CardLogic\\WiresCard.cs",
-              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TutorialRoom\\TSE\\Assets\\CardLogic\\WiresCard.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\GLaGL\\Downloads\\TutorialRoom\\TSE\\Assets\\CardLogic\\WiresCard.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:50:57.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CardData.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs",
-              "RelativeDocumentMoniker": "Assets\\CardLogic\\CardData.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs",
-              "RelativeToolTip": "Assets\\CardLogic\\CardData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:49:58.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PickUpWires.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\PickUpWires.cs",
-              "RelativeDocumentMoniker": "Assets\\PickUpWires.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\PickUpWires.cs",
-              "RelativeToolTip": "Assets\\PickUpWires.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:42:54.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OpenPuzzle.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\OpenPuzzle.cs",
-              "RelativeDocumentMoniker": "Assets\\OpenPuzzle.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\OpenPuzzle.cs",
-              "RelativeToolTip": "Assets\\OpenPuzzle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:36:05.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "WiresDropArea.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs",
+              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs",
               "RelativeDocumentMoniker": "Assets\\WiresDropArea.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs",
+              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs",
               "RelativeToolTip": "Assets\\WiresDropArea.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:20:48.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICardDropArea.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\ICardDropArea.cs",
-              "RelativeDocumentMoniker": "Assets\\CardLogic\\ICardDropArea.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\ICardDropArea.cs",
-              "RelativeToolTip": "Assets\\CardLogic\\ICardDropArea.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:14:28.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\CardLogic\\Card.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs",
-              "RelativeToolTip": "Assets\\CardLogic\\Card.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBJwBUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:13:10.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HandManager.cs",
-              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\HandManager.cs",
-              "RelativeDocumentMoniker": "Assets\\CardLogic\\HandManager.cs",
-              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\HandManager.cs",
-              "RelativeToolTip": "Assets\\CardLogic\\HandManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:09:29.085Z"
+              "WhenOpened": "2026-05-02T09:06:19.834Z",
+              "EditorCaption": ""
             }
           ]
         }
