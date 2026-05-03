@@ -1,9 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GLaGL\\Downloads\\TSE\\",
+  "WorkspaceRootPath": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\TypewriterEffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Chest\\TypewriterEffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Room1\\TerminalPuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Room1\\TerminalPuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\CodeDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\Codes\\CodeDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestLootManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Chest\\ChestLootManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Chest\\ChestInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CardLogic\\CardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\WiresDropArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +46,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodeDropArea.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\CodeDropArea.cs",
+              "RelativeDocumentMoniker": "Assets\\CardLogic\\Codes\\CodeDropArea.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\CodeDropArea.cs",
+              "RelativeToolTip": "Assets\\CardLogic\\Codes\\CodeDropArea.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T13:49:47.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TerminalPuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Room1\\TerminalPuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Room1\\TerminalPuzzleManager.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Room1\\TerminalPuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Room1\\TerminalPuzzleManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T13:46:02.128Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TypewriterEffect.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\TypewriterEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Chest\\TypewriterEffect.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\TypewriterEffect.cs",
+              "RelativeToolTip": "Assets\\Chest\\TypewriterEffect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T12:19:25.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChestLootManager.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestLootManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Chest\\ChestLootManager.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestLootManager.cs",
+              "RelativeToolTip": "Assets\\Chest\\ChestLootManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T11:53:48.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChestInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Chest\\ChestInteraction.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\Chest\\ChestInteraction.cs",
+              "RelativeToolTip": "Assets\\Chest\\ChestInteraction.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T11:52:26.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BrokenWire.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs",
+              "RelativeDocumentMoniker": "Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs",
+              "RelativeToolTip": "Assets\\CardLogic\\Codes\\Tutorial Room Puzzle\\BrokenWire.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:35:08.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs",
+              "RelativeDocumentMoniker": "Assets\\CardLogic\\Card.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\Card.cs",
+              "RelativeToolTip": "Assets\\CardLogic\\Card.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T16:13:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardData.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs",
+              "RelativeDocumentMoniker": "Assets\\CardLogic\\CardData.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\CardLogic\\CardData.cs",
+              "RelativeToolTip": "Assets\\CardLogic\\CardData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T16:12:54.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "WiresDropArea.cs",
-              "DocumentMoniker": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs",
+              "DocumentMoniker": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs",
               "RelativeDocumentMoniker": "Assets\\WiresDropArea.cs",
-              "ToolTip": "C:\\Users\\GLaGL\\Downloads\\TSE\\Assets\\WiresDropArea.cs",
+              "ToolTip": "C:\\Users\\conor\\Desktop\\Uniwork\\TSE\\Assets\\WiresDropArea.cs",
               "RelativeToolTip": "Assets\\WiresDropArea.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAIwB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T09:06:19.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-02T09:06:19.834Z"
             }
           ]
         }
