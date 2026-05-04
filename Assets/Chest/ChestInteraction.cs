@@ -23,4 +23,9 @@ public class ChestInteract : MonoBehaviour
         isLooted = true;
         Debug.Log("Cache empty. Connection severed.");
     }
+
+    public void SetIsLooted(bool _isLooted)
+    {
+        isLooted = _isLooted;
+    }
 }

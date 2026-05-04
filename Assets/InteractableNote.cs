@@ -5,11 +5,12 @@ public class InteractableNote : MonoBehaviour
     [Header("UI Menu Hookup")]
     [Tooltip("Drag the Note UI Panel from your Hierarchy into this slot")]
     public GameObject noteUIPanel;
+    public CharacterMovement playerMovement;
 
     // This built-in Unity function fires when a player clicks/taps an object with a Collider
     private void OnMouseDown()
     {
-        if (noteUIPanel != null)
+        if (noteUIPanel != null && !playerMovement.isMoving)
         {
             // Show the pop-up menu
             noteUIPanel.SetActive(true);

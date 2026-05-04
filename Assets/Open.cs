@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Open : MonoBehaviour
 {
+    public CameraMove cam;
+    public float newX = 10f;
+
     void OnMouseDown()
     {
-        SceneManager.LoadScene("SequentialRoom");
+        cam.targetX = newX;
         Debug.Log("DOOR CLICKED");
     }
 }

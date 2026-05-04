@@ -80,42 +80,6 @@ public class Card : MonoBehaviour
         }
     }
 
-    /* private void OnMouseUp() // When the player releases the mouse button, we check if they dropped on a valid target.
-     {
-         isTargeting = false;
-         lineRenderer.positionCount = 0;
-
-         Vector3 mousePos = GetMousePositionInWorldSpace();
-
-         Collider2D hitCollider = Physics2D.OverlapPoint((Vector2)mousePos);
-
-         if (hitCollider != null && hitCollider.TryGetComponent(out ICardDropArea cardDropArea))
-         {
-             // We ask the drop area: "Do you accept this specific card?"
-             bool wasAccepted = cardDropArea.OnCardDropped(this);
-
-             if (wasAccepted)
-             {
-                 // The target accepted the card! Remove it from the hand.
-                 HandManager hand = FindObjectOfType<HandManager>();
-                 if (hand != null)
-                 {
-                     hand.RemoveCard(this);
-                 }
-             }
-             else
-             {
-                 // The target rejected the card (e.g., we dropped a Code card on a Broken Wire).
-                 SnapBackToHand();
-             }
-         }
-         else
-         {
-             // We missed completely.
-             SnapBackToHand();
-         }
-     }*/
-
     private void OnMouseUp()
     {
         isTargeting = false;

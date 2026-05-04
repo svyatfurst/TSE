@@ -5,7 +5,10 @@ public enum CardTrait
     None,
     Wire,
     BooleanValue,
-    Syntax
+    Syntax,
+    Operator,
+    JumpCommand,
+    ChangeDirectionCommand
 }
 
 [CreateAssetMenu(fileName = "NewCardData", menuName = "Card System/Card Data")]

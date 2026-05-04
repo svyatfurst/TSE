@@ -2,19 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClosedDoor : MonoBehaviour
+public class MovingFloor : MonoBehaviour
 {
-    public GameObject wakeupwindow;
-    public GameObject window;
+
+    public bool isMoving = false;
     // Start is called before the first frame update
     void Start()
     {
         
-    }
-
-    void OnMouseDown()
-    {
-        if (!wakeupwindow.activeInHierarchy) window.SetActive(true);
     }
 
     // Update is called once per frame

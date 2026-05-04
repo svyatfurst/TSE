@@ -2,61 +2,74 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System;
 
-public class TerminalPuzzleManager : MonoBehaviour
+public class LoopTerminalPuzzleManager : MonoBehaviour
 {
     [Header("Drop Zones")]
     public CodeDropArea valueZone;
     public CodeDropArea semicolonZone;
+    public CodeDropArea changeDirectionZone;
 
     [Header("UI & Buttons")]
     public GameObject terminalUIPanel;
     public TextMeshProUGUI terminalOutputText;
 
-    [Header("Victory Action")]
-    [Tooltip("The physical closed door blocking the path")]
-    public GameObject closedDoor;
-    [Tooltip("The background sprite showing the door is open")]
-    public GameObject openedDoor;
+    public CharacterMovement characterMovement;
 
     public void OnRunClicked()
     {
         // ERROR CHECK: Are slots empty?
-        if (valueZone.dockedCard == null || semicolonZone.dockedCard == null)
+        if (valueZone.dockedCard == null || semicolonZone.dockedCard == null || changeDirectionZone.dockedCard == null)
         {
             ShowMessage("> ERROR: Missing parameters. Fill all brackets.", Color.red);
             return;
         }
 
-        bool isValueCorrect = valueZone.dockedCard.cardData.cardTrait == CardTrait.BooleanValue;
-        bool isSemicolonCorrect = semicolonZone.dockedCard.cardData.cardTrait == CardTrait.Syntax;
+        bool isValueCorrect = valueZone.dockedCard.cardData.cardTrait == CardTrait.Operator;
+        bool isSemicolonCorrect = semicolonZone.dockedCard.cardData.cardTrait == CardTrait.JumpCommand;
+        bool isChangeDirectionCorrect = changeDirectionZone.dockedCard.cardData.cardTrait == CardTrait.ChangeDirectionCommand;
 
         // ERROR CHECK: Are they the wrong cards?
-        if (!isValueCorrect || !isSemicolonCorrect)
+        /*if (!isValueCorrect || !isSemicolonCorrect)
         {
             ShowMessage("> SYNTAX ERROR: Invalid arguments detected. Ejecting...", Color.red);
             ReturnToHand(valueZone);
             ReturnToHand(semicolonZone);
             return;
-        }
+        }*/
 
+        if (!isValueCorrect)
+        {
+            CloseTerminal();
+            characterMovement.Scenario0();
+            return;
+        } else if(!isSemicolonCorrect) {
+            CloseTerminal();
+            characterMovement.Scenario1();
+            return;
+        } else if(!isChangeDirectionCorrect)
+        {
+            CloseTerminal();
+            characterMovement.Scenario2();
+            return;
+        }
+        else
+        {
+            CloseTerminal();
+            characterMovement.Scenario3();
+            return;
+        }
+        
         // SUCCESS!
-        ShowMessage("> ACCESS GRANTED. Opening door...", Color.green);
+        ShowMessage("> ACCESS GRANTED. Running the script...", Color.green);
+
+        
 
         Destroy(valueZone.dockedCard.gameObject);
         Destroy(semicolonZone.dockedCard.gameObject);
+        Destroy(changeDirectionZone.dockedCard.gameObject);
 
-        valueZone.dockedCard = null;
-        semicolonZone.dockedCard = null;
-
-        // Door logic
-        // 1. Delete the closed door and its colliders/messages
-        /*if (closedDoor != null) Destroy(closedDoor);*/
-
-        // 2. Turn on the visual open door background
-        if (closedDoor != null) closedDoor.SetActive(false);
-
-        StartCoroutine(CloseAfterDelay(2f));
     }
 
     private void ShowMessage(string msg, Color color)
@@ -92,15 +105,10 @@ public class TerminalPuzzleManager : MonoBehaviour
 
         ReturnToHand(valueZone);
         ReturnToHand(semicolonZone);
+        ReturnToHand(changeDirectionZone);
 
         if (terminalOutputText != null) terminalOutputText.text = "";
 
         if (terminalUIPanel != null) terminalUIPanel.SetActive(false);
-    }
-
-    private IEnumerator CloseAfterDelay(float delay)
-    {
-        yield return new WaitForSecondsRealtime(delay);
-        CloseTerminal();
     }
 }
