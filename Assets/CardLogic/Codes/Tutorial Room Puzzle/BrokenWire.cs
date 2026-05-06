@@ -1,3 +1,7 @@
+//BrokenWire.cs
+// Logic for dropping wire card on wire box
+// by Harry Vowles
+// 29339644
 using System.Collections;
 using UnityEngine;
 
@@ -17,9 +21,7 @@ public class BrokenWire : MonoBehaviour, ICardDropArea
         {
             Debug.Log("Success! The wire was fixed!");
 
-            // 2. Put your door opening logic here!
-
-            // 3. THE FIX: Actually delete the card from the world!
+            // Destroy card
             Destroy(droppedCard.gameObject);
             fixedWires.SetActive(true);
             sparks.SetActive(false);

@@ -1,35 +1,43 @@
-
+// Card.cs
+// Used to handle card drag and drop logic and visual scaling of text/image.
+// by Harry Vowles
+// 29339644
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Card Class
 public class Card : MonoBehaviour
 {
     [Header("Card Properties")]
-    public CardData cardData;
+    public CardData cardData; // type of card
 
-    [Header("Visual Components")]
-    public SpriteRenderer iconRenderer;
+    [Header("Visual Components")] //icon or text
+    public SpriteRenderer iconRenderer; 
     public TextMeshPro textRenderer;
 
+    // line rendering
     private LineRenderer lineRenderer;
     private Vector3 startDragPosition;
     private bool isTargeting = false;
+    private Vector3 originalScale;
 
     void Start()
     {
+        
+        originalScale = transform.localScale; // saves scale of cards so doesn't adjust later
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.positionCount = 0;
 
-        // 1. FORCE THE SORTING LAYERS TO THE FRONT 
+        // forces sorting layers to front 
         SpriteRenderer myRenderer = GetComponent<SpriteRenderer>();
         if (myRenderer != null)
         {
             myRenderer.sortingOrder = 100;
         }
 
-        // 2. APPLY THE VISUALS FROM THE CARD DATA
+        // apply card data visuakls to card
         if (cardData != null)
         {
             if (cardData.useTextInsteadOfIcon)
@@ -63,18 +71,20 @@ public class Card : MonoBehaviour
         }
     }
 
-    private void OnMouseDown() // When the player clicks on the card, we start targeting.
+    private void OnMouseDown() // When the player clicks on the card
     {
         isTargeting = true;
         startDragPosition = transform.position;
         lineRenderer.positionCount = 2;
     }
 
-    private void OnMouseDrag() // While the player is dragging, we update the line to show the targeting.
+    private void OnMouseDrag()
     {
         if (isTargeting)
         {
             Vector3 mousePos = GetMousePositionInWorldSpace();
+
+            // Use the CURRENT position so the line follows the card if it shifts
             lineRenderer.SetPosition(0, transform.position);
             lineRenderer.SetPosition(1, mousePos);
         }
@@ -87,7 +97,7 @@ public class Card : MonoBehaviour
 
         Vector3 mousePos = GetMousePositionInWorldSpace();
 
-        // THE FIX: Check ALL colliders under the mouse, not just the top one!
+        // Check all colliders under Mouse
         Collider2D[] hitColliders = Physics2D.OverlapPointAll((Vector2)mousePos);
         bool foundValidTarget = false;
 
@@ -101,12 +111,18 @@ public class Card : MonoBehaviour
 
                 if (wasAccepted)
                 {
-                    // Success! Remove from hand.
+                    // Success: Remove from hand list.
                     HandManager hand = FindObjectOfType<HandManager>();
                     if (hand != null)
                     {
                         hand.RemoveCard(this);
                     }
+
+                    // Move the card to the drop area 
+                    transform.SetParent(hit.transform, false);
+
+                    // Center the card exactly on the drop slot
+                    transform.position = hit.transform.position;
                 }
                 else
                 {
@@ -128,7 +144,11 @@ public class Card : MonoBehaviour
 
     private void SnapBackToHand() // If the card is not accepted by a target, it snaps back to its original position.
     {
+        // 1. Move it back to the position saved at start of drag
         transform.position = startDragPosition;
+
+        // 2. Scale to original scale saved in beginning of code.
+        transform.localScale = originalScale;
     }
 
     private Vector3 GetMousePositionInWorldSpace() // Converts the mouse position to world space coordinates.

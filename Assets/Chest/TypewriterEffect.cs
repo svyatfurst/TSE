@@ -1,3 +1,4 @@
+// Typewriter effect code for terminals and more.
 using System.Collections;
 using UnityEngine;
 using TMPro;

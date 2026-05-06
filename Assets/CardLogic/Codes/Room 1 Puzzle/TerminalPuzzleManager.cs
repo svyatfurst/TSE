@@ -1,3 +1,8 @@
+// TerminalPuzzleManager.cs
+// Script for terminal puzzle logic in room1
+// By Harry Vowles
+// 29339644
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -73,10 +78,25 @@ public class TerminalPuzzleManager : MonoBehaviour
         if (zone.dockedCard != null)
         {
             HandManager hand = FindObjectOfType<HandManager>();
-            zone.dockedCard.gameObject.SetActive(true);
-            hand.cardsInHand.Add(zone.dockedCard);
-            hand.ArrangeHand();
 
+            if (hand != null)
+            {
+              
+                zone.dockedCard.transform.SetParent(hand.transform, false);
+
+                // Ensure it is visible and at full scale
+                zone.dockedCard.gameObject.SetActive(true);
+                zone.dockedCard.transform.localScale = Vector3.one;
+
+                // Add back to logic and arrange
+                if (!hand.cardsInHand.Contains(zone.dockedCard))
+                {
+                    hand.cardsInHand.Add(zone.dockedCard);
+                }
+                hand.ArrangeHand();
+            }
+
+            // Clear the zone so it's ready for a new card
             zone.dockedCard = null;
             if (zone.gapText != null)
             {
@@ -85,6 +105,7 @@ public class TerminalPuzzleManager : MonoBehaviour
             }
         }
     }
+
 
     public void CloseTerminal()
     {

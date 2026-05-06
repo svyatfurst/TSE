@@ -1,3 +1,7 @@
+// CodeDropArea.cs
+// logic for droppable card area 
+// By Harry Vowles
+// 29339644
 using UnityEngine;
 using TMPro;
 
@@ -8,7 +12,7 @@ public class CodeDropArea : MonoBehaviour, ICardDropArea
     public Card dockedCard; 
 
     [Header("Visuals")]
-    [Tooltip("Drag the UI Text object that here")]
+    [Tooltip("Text object ")]
     public TextMeshProUGUI gapText;
     public string defaultText = "___";
 
@@ -19,13 +23,13 @@ public class CodeDropArea : MonoBehaviour, ICardDropArea
 
         if (card.cardData != null)
         {
-            //  card so the Manager's RUN button can check it 
+            // card so the Manager's RUN button can check it 
             dockedCard = card;
 
             // Hide the physical 2D card object 
             card.gameObject.SetActive(false);
 
-            // 4. Update the terminal text to show what was plugged in
+            // Update the terminal text to show what was plugged in
             if (gapText != null)
             {
                 // If it's a text card, show the text. If it's an image card, show its name.

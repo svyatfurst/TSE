@@ -1,3 +1,6 @@
+// PickupItem.cs
+// by Harry Vowles
+// 29339644
 using UnityEngine;
 
 public class PickupItem : MonoBehaviour
@@ -7,7 +10,7 @@ public class PickupItem : MonoBehaviour
 
     private void OnMouseDown()
     {
-        // 1. Find your HandManager in the scene
+        // 1. Find HandManager in the scene
         HandManager hand = FindObjectOfType<HandManager>();
 
         if (hand != null && cardPrefabToGive != null)
@@ -24,10 +27,10 @@ public class PickupItem : MonoBehaviour
             // 5. Force the hand to recalculate positions and slide it into view
             hand.ArrangeHand();
 
-            // 6. Destroy the physical wire on the floor!
+            // 6. Destroy the physical object.
             Destroy(gameObject);
 
-            Debug.Log("Picked up item! Wire Card added to hand.");
+            
         }
     }
 }

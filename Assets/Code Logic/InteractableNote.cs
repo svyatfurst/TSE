@@ -1,3 +1,7 @@
+// InteractableNote.cs
+// Allows for notes popup, and button usage
+// by Harry Vowles
+// 29339644
 using UnityEngine;
 
 public class InteractableNote : MonoBehaviour

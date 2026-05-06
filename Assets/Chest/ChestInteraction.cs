@@ -1,3 +1,7 @@
+// ChestInteract.cs
+// Logic for chest interaction
+// By harry vowles
+//29339644
 using UnityEngine;
 
 public class ChestInteract : MonoBehaviour

@@ -1,3 +1,7 @@
+// CardData.cs
+// Allows cards to hold data for handling and checking in puzzle logic.
+// By Harry Vowles
+// 29339644
 using UnityEngine;
 
 public enum CardTrait
@@ -22,6 +26,6 @@ public class CardData : ScriptableObject
     public bool useTextInsteadOfIcon;
 
     [Header("Visuals (Fill out one)")]
-    public Sprite cardIcon; // Put the wire picture here
-    public string cardText; // Put "false" or ";" here
+    public Sprite cardIcon; // Put Pictures
+    public string cardText; // Put "false" or ";" 
 }

@@ -1,3 +1,7 @@
+// ChestLootManager.cs
+// Manages the loot/cards within the chest.
+// By Harry Vowles
+// 29339644
 using UnityEngine;
 
 public class ChestLootManager : MonoBehaviour
